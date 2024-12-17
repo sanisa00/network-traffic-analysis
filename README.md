@@ -15,20 +15,14 @@ This project investigates a simulated corporate network breach, conducted as par
 
 ## Steps
 1. Accessed simulated network traffic files provided by the Security Blue Team’s Blue Team Junior Analyst Pathway.
-2. Opened the `.pcap` file in Wireshark and applied ARP filters to identify unusual traffic patterns.
-3. Diagnosed MITM attack characteristics by analyzing ARP requests and replies.
-4. Reviewed FTP traffic to locate a sensitive file and extracted embedded credentials using stream reconstruction.
-5. Summarized findings and recommended mitigation strategies for MITM attacks.
+2. Access the network traffic files provided by Security Blue Team's Blue Team Junior Analyst Pathway here [Activity:Network Analysis Challenge](https://elearning.securityblue.team/home/courses/free-courses/introduction-to-network-analysis#content#course-capstone#course-capstone#activity-network-analysis-challenge)
+3. Opened the `.pcap` file in Wireshark and applied ARP filters to identify unusual traffic patterns.
+4. Diagnosed MITM attack characteristics by analyzing ARP requests and replies.
+5. Reviewed FTP traffic to locate a sensitive file and extracted embedded credentials using stream reconstruction.
+6. Summarized findings and recommended mitigation strategies for MITM attacks.
 
 ## Learning Outcomes
 - Enhanced proficiency in network packet inspection and stream analysis.
 - Gained practical experience in diagnosing network attacks in real-world simulations.
 - Strengthened understanding of network security protocols and their vulnerabilities.
 
-## How to Replicate
-1. Enroll in the [Security Blue Team’s Blue Team Junior Analyst Pathway](https://securityblue.team/).
-2. Access the network traffic files provided in the relevant lab.
-3. Open the `.pcap` file in Wireshark and follow the analysis steps outlined in this repository’s walkthrough guide.
-
-## Visual Evidence
-![Wireshark Screenshot](Screenshots/wireshark_analysis.png)
